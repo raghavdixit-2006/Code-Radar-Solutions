@@ -6,7 +6,7 @@ int main() {
     for (i=0,,i++){
         x = a & (1<<i);
         if(x==0){
-            printf("%d", i);
+            printf("%d\n", i);
             break;
         }
     }
