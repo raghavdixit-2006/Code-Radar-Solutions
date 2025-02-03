@@ -1,10 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    int a, b;
+    int a, i, x;
     scanf("%d", &a);
-    for (i=0,i<5,i++){
-        printf("%d", a^(1<<i));
+    for (i=0,,i++){
+        x = a & (1<<i)
+        if(x==0){
+            printf("%d", i);
+            break;
+        }
     }
     return 0;
 }
+
+
