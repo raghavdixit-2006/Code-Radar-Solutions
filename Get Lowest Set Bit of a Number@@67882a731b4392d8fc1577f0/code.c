@@ -1,16 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    int a, i, x;
-    scanf("%d", &a);
-    for (i=0;;i++){
-        x = a & (1<<i);
-        if(x==0){
-            printf("%d\n", i-1);
+    int a,count=0,b;
+    int a,count=0;
+    scanf("%d",&a);
+    while(a!=0){
+        if(a&1==1){
             break;
         }
+        a = a>>1;
+        count++;
+
     }
+    printf("%d",count);
     return 0;
 }
-
 
