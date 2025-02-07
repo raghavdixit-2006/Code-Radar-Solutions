@@ -1,19 +1,22 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, c = 0;
-    scanf("%d", &a);
-    for (int i=0;i!=33;i++){
-        b = a >> 1;
-        if (a&1 != 1){
-            c++;
-        }
-        if (a&1 == 1){
+    unsigned int a,count=0;
+    scanf("%lu",&a);
+    while(a!=0){
+        if(a==1){
             break;
         }
-        printf("%d", c);
-
+        a=a>>1;
+        count++;
     }
 
+    if(a==0){
+        printf("%d",0);
+    }
+    
+    else{
+    printf("%d",32-count-1);
+    }
     return 0;
 }
