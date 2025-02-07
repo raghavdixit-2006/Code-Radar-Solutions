@@ -5,7 +5,6 @@ int main(){
     scanf("%d", &n);
     if (n == 0) {
         printf("0");
-        return;
     }
     while (n > 0) {
         b[i] = n % 2; 
