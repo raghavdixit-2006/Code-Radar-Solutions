@@ -2,7 +2,7 @@
 
 int main(){
     int n, i=0, b[40];
-    scanf("%d", &n)
+    scanf("%d", &n);
     if (n == 0) {
         printf("0");
         return;
