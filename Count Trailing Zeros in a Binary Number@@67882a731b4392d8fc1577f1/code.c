@@ -14,7 +14,7 @@ int main() {
         printf("%d", a);
     }
     else{
-        printf("%d", count)
+        printf("%d", count);
     }
     return 0;
 }
