@@ -8,12 +8,12 @@ int main(){
         return;
     }
     while (n > 0) {
-        binary[i] = n % 2; 
+        b[i] = n % 2; 
         n = n / 2;
         i++;
     }
     for (int j = i - 1; j >= 0; j--) {
-        printf("%d", binary[j]);
+        printf("%d", b[j]);
     }
     return 0;
 }
