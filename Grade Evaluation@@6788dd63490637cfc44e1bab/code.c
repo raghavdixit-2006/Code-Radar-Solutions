@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(){
-    int a;
-    scanf("%d", a);
+    char a;
+    scanf("%c", a);
     switch(a){
         case "A": printf("Excellent");
         break;
