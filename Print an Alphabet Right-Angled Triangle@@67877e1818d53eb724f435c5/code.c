@@ -9,6 +9,6 @@ int main(){
     //     }
     //     printf("\n");
     // }
-    int a = 67;
+    int a = 65;
     printf("%c",a);
 }
