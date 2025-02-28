@@ -10,5 +10,5 @@ int main(){
     //     printf("\n");
     // }
     int a = 67;
-    printf("%c";a);
+    printf("%c",a);
 }
