@@ -10,6 +10,11 @@ int main(){
         for(int k=1;k<=i;k++){
             printf("%d", k);
         }
+        if(i>=2){
+            for(k=2;k<=a;k++){
+                printf("%d", k);
+            }
+        }
         printf("\n");
     }
     return 0;
